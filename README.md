@@ -5,12 +5,16 @@
 Jetson Nano
 
 ### ソースコード(src)の説明
-1. gui.py　　
+1. gui.py
+<br>
 Tkinterで作成したGUIプログラム
-2. model_load.py　　
+2. model_load.py
+<br>
 学習済みモデルを用いた判別器プログラム
-3. simple_camera.py　　
+3. simple_camera.py
+<br>
 CSIカメラのサンプルプログラム(jetsonhack)
-4. torch_cuda.py　　
+4. torch_cuda.py
+<br>
 pytorchでcudaが使用可能であるかを確認するためのプログラム
 
