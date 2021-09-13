@@ -9,15 +9,15 @@ Jetson Nano
 <br>
 Tkinterで作成したGUIプログラム
 <br>
-2. model_load.py
+1. model_load.py
 <br>
 学習済みモデルを用いた判別器プログラム
 <br>
-3. simple_camera.py
+1. simple_camera.py
 <br>
 CSIカメラのサンプルプログラム(jetsonhack)
 <br>
-4. torch_cuda.py
+1. torch_cuda.py
 <br>
 pytorchでcudaが使用可能であるかを確認するためのプログラム
 
