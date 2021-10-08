@@ -1,26 +1,23 @@
 # AIじゃんけんマシン for JETSON NANO
 ## Introduction
----
 NVIDIA® Jetson Nano™上で、MediaPipeとPyTorchを使って制作したAIじゃんけんマシンです。皆さんもAIとじゃんけんをしてみませんか？AIは強敵ですよ。
 
 ## 使用機器
----
 - NVIDIA® Jetson Nano™
 - Logicool Webcamera C505
 ## AIフレームワーク
----
 - [MediaPipe](https://google.github.io/mediapipe/)
 - [PyTorch](https://pytorch.org/)
 
 ## 構成
----
-![make_csv](/img/1.jpg) 
-![make_model](/img/2.jpg) 
+![make_csv](/img/1.jpg)
+--- 
+![make_model](/img/2.jpg)
+--- 
 ![Classification](/img/3.jpg) 
 
 
 ## インストール
----
 MediaPipe
 ~~~
 
@@ -71,25 +68,18 @@ sudo pip3 install numpy
 sudo pip3 install torch-1.9.0-cp36-cp36m-linux_aarch64.whl
 ~~~
 ## Script
----
 - 
 - 
-- 
-## 学習済みモデル
----  
 - 
 ## コラボレータ
----
 - 
 - 
 - 
 ## 動画リンク
----
 - 
 
 
 ## 参考
----
 - https://github.com/PINTO0309/mediapipe-bin  
 - https://forums.developer.nvidia.com/t/pytorch-for-jetson-version-1-9-0-now-available/72048
 
