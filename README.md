@@ -1,6 +1,6 @@
 #  Rock-Paper-Scissors AI Machine for JETSON NANO
 ## Introduction
-This is a Rock-Paper-Scissors AI Machine I made using MediaPipe and PyTorch.
+This is a Rock-Paper-Scissors AI Machine made using MediaPipe and PyTorch.
 
 ## Equipment
 - NVIDIA® Jetson Nano™
