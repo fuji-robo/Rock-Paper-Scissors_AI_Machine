@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 import tkinter as tk
 import cv2
 import PIL.Image, PIL.ImageTk
@@ -43,7 +46,7 @@ class MLP(nn.Module):
         return x
 
 mlp=MLP()
-model_path = './data/model_data/model1.pth'
+model_path = '../model/model.pth'
 mlp.load_state_dict(torch.load(model_path))
 
 # model load #############################################################
@@ -197,17 +200,17 @@ class Application(tk.Frame):
                 out=discrimination(in_torch)
                 print("out_label:{}".format(out))
                 if out == 0:
-                    self.img = PIL.Image.open(open('./data/png_data/2.png', 'rb'))
+                    self.img = PIL.Image.open(open('../data/png_img/2.png', 'rb'))
                     self.img.thumbnail((300, 300), PIL.Image.ANTIALIAS)
                     self.photo2 = PIL.ImageTk.PhotoImage(self.img)
                     self.canvas2.create_image(0,0, image= self.photo2, anchor = tk.NW)
                 elif out == 1:
-                    self.img = PIL.Image.open(open('./data/png_data/0.png', 'rb'))
+                    self.img = PIL.Image.open(open('../data/png_img/0.png', 'rb'))
                     self.img.thumbnail((300, 300), PIL.Image.ANTIALIAS)
                     self.photo2 = PIL.ImageTk.PhotoImage(self.img)
                     self.canvas2.create_image(0,0, image= self.photo2, anchor = tk.NW)
                 elif out == 2:
-                    self.img = PIL.Image.open(open('./data/png_data/1.png', 'rb'))
+                    self.img = PIL.Image.open(open('../data/png_img/1.png', 'rb'))
                     self.img.thumbnail((300, 300), PIL.Image.ANTIALIAS)
                     self.photo2 = PIL.ImageTk.PhotoImage(self.img)
                     self.canvas2.create_image(0,0, image= self.photo2, anchor = tk.NW)

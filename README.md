@@ -1,23 +1,23 @@
-# AIじゃんけんマシン for JETSON NANO
+#  Rock-Paper-Scissors AI Machine for JETSON NANO
 ## Introduction
-NVIDIA® Jetson Nano™上で、MediaPipeとPyTorchを使って制作したAIじゃんけんマシンです。皆さんもAIとじゃんけんをしてみませんか？AIは強敵ですよ。
+This is a Rock-Paper-Scissors AI Machine I made using MediaPipe and PyTorch.
 
-## 使用機器
+## Equipment
 - NVIDIA® Jetson Nano™
 - Logicool Webcamera C505
-## AIフレームワーク
+## AI Framework
 - [MediaPipe](https://google.github.io/mediapipe/)
 - [PyTorch](https://pytorch.org/)
 
-## 構成
+## Composition
 ![make_csv](/img/1.jpg)
 --- 
 ![make_model](/img/2.jpg)
 --- 
-![Classification](/img/3.jpg) 
+![Classification](/img/3.jpg)
 
 
-## インストール
+## Install
 MediaPipe
 ~~~
 
@@ -67,19 +67,20 @@ sudo pip3 install Cython
 sudo pip3 install numpy
 sudo pip3 install torch-1.9.0-cp36-cp36m-linux_aarch64.whl
 ~~~
-## Script
-- 
-- 
-- 
-## コラボレータ
-- 
-- 
-- 
-## 動画リンク
+## Executon method
+Rock-Paper-Scissors AI Machine
+~~~
+cd Rock-Paper-Scissors_AI_Machine/script
+python3 rock_paper_scissors.py
+~~~
+## Collaborators
+- kou163744
+- zaburow82
+
+## Video
 - 
 
-
-## 参考
-- https://github.com/PINTO0309/mediapipe-bin  
+## Reference
+- https://github.com/PINTO0309/mediapipe-bin
 - https://forums.developer.nvidia.com/t/pytorch-for-jetson-version-1-9-0-now-available/72048
 
