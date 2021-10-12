@@ -78,9 +78,9 @@ python3 rock_paper_scissors.py
 - zaburow82
 
 ## Video
-- [](https://youtu.be/8iM2gn5ob7M)
+- <https://youtu.be/8iM2gn5ob7M>
 
 ## Reference
-- [](https://github.com/PINTO0309/mediapipe-bin)
-- [](https://forums.developer.nvidia.com/t/pytorch-for-jetson-version-1-9-0-now-available/72048)
+- <https://github.com/PINTO0309/mediapipe-bin>
+- <https://forums.developer.nvidia.com/t/pytorch-for-jetson-version-1-9-0-now-available/72048>
 
