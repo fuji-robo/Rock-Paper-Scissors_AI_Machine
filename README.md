@@ -67,7 +67,7 @@ sudo pip3 install Cython
 sudo pip3 install numpy
 sudo pip3 install torch-1.9.0-cp36-cp36m-linux_aarch64.whl
 ~~~
-## Executon method
+## Executon
 Rock-Paper-Scissors AI Machine
 ~~~
 cd Rock-Paper-Scissors_AI_Machine/script
