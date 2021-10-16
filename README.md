@@ -3,7 +3,7 @@
 This is a Rock-Paper-Scissors AI Machine made using MediaPipe and PyTorch.
 
 ## Equipment
-- NVIDIA® Jetson Nano™
+- NVIDIA® Jetson Nano™ Developer Kit-B01
 - Logicool Webcamera C505
 ## AI Framework
 - [MediaPipe](https://google.github.io/mediapipe/)
