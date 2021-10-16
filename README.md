@@ -74,8 +74,8 @@ cd Rock-Paper-Scissors_AI_Machine/script
 python3 rock_paper_scissors.py
 ~~~
 ## Collaborators
-- kou163744
-- zaburow82
+- Kosei Yamao(kou163744)
+- Shozaburo Hirano(zaburow82)
 
 ## Video
 - <https://youtu.be/8iM2gn5ob7M>
